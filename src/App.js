@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEfect} from 'react';
+import Notification from './components/Notification/notification';
+import Header from './components/Header/header';
+import Footer from './components/Footer/footer'
+
+//CSS
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  const [visible, setVisible] = useState(true)
+  const handleHidden = value =>{
+    setVisible(value)
+  }
+	return ( 
+    <>
+      { visible ? (<Notification visibleChange={(value)=> handleHidden(value) }/>) : ('')}
+      <Header/>
+      <Footer/>
+    </>
+	);
+};
 
 export default App;
