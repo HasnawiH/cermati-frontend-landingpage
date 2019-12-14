@@ -1,19 +1,26 @@
 
 .header{
-    display: inline-block;
     width: 40%;
     height: 30%;
     margin: auto;
-    position: absolute;
-    top: 0%; bottom: 0%; left:0%; right: 0%;
-    padding-top: 130px;
+    position: relative;
 }
+
+.box{
+    width: 40%;
+    height: 27%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
 .image{
     width: 46px;
-    height: 42px;
+    height: 45px;
     margin: 25px 30px;
-    position: absolute
+    position: absolute;
 }
+
 .title1{
     display: block;
     text-align: center;
@@ -36,6 +43,7 @@
     color: white;
     font-size: 120%;
 }
+
 .title4{
     display: block;
     text-align: center;

@@ -18,12 +18,14 @@ const Header = () => {
 	return (
 		<header style={makeStyle}>
 			<img className='image' src={Logo} alt=''/>
+			<div className='box' />
 			<div className='header'>
 				<span className='title1'> Hello! I'm Hasnawi </span>
 				<span className='title2'> Consult, Design and Develop Website</span>
 				<span className='title3'> Have something great in mind? Feel free to contact me.</span>
 				<span className='title4'> I'll help you to take make it happen.</span>
 				<button className='contact'>LET'S MAKE CONTACT</button>
+		
 			</div>
 		</header>
 	);
