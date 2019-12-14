@@ -16,8 +16,7 @@ const App = () => {
       { visible ? (
         <>
         <Notification visibleChange={(value)=> handleHidden(value) }/>
-        
-        <div style={{width:'100%', height:'80px', backgroundColor:'#e5e5e5', zIndex:2}}/>
+        <div className='box1'/>
         </>
       ) : ('')}
       <Header/>

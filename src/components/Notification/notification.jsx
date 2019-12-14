@@ -3,10 +3,11 @@ import { animateScroll as scroll} from 'react-scroll'
 import './notification.css'
 
 const Notification = props => {
+
     const handleHidden = newValue =>{
         props.visibleChange(newValue)
-    
     }
+    
     return (
         <div className='notification'>
             <div className='container'>
