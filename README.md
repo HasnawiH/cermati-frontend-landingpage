@@ -3,10 +3,10 @@
 ## Showcase
 
 <p align="center">
-<img width="250" height="400" src="./src/screenshoot/desktop(1360x1031).png">     
+<img width="400" src="./src/screenshoot/desktop(1360x1031).png">     
 </p>
 <p align="center">
-<img width="250" height="400" src="./src/screenshoot/mobile(768x1024).png">    <img width="250" height="400" src="./src/screenshoot/mobile(360x640).png">
+<img width="250"  src="./src/screenshoot/mobile(768x1024).png">    <img width="250"src="./src/screenshoot/mobile(360x640).png">
 </p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
