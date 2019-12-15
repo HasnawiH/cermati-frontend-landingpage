@@ -1,3 +1,14 @@
+# Cermati Frontend Developer
+
+## Showcase
+
+<p align="center">
+<img width="250" height="400" src="./screenshoot/desktop(1360x1031).png">     
+</p>
+<p align="center">
+<img width="250" height="400" src="./screenshoot/mobile(768x1024).png">    <img width="250" height="400" src="./screenshoot/mobile(360x640).png">
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +77,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # cermati-frontend-landingpage
