@@ -7,7 +7,7 @@ const newsletter = props => {
   };
   return (
     <div className="newsletters">
-      <i class="fas fa-times" />
+      <i onClick={() => handleHidden(false)} class="fas fa-times" />
       <div className="news-text">
         <h3> Get latest updates in web technologies </h3>
         <span>
@@ -23,9 +23,7 @@ const newsletter = props => {
           name="email"
           placeholder="Email Address"
         />
-        <button onClick={() => handleHidden(false)} className="news-button">
-          Count me in!
-        </button>
+        <button className="news-button">Count me in!</button>
       </div>
     </div>
   );

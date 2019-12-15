@@ -44,6 +44,7 @@ a {
 @media screen and (max-width: 480px) {
   .notification {
     height: 130px;
+    width: 100%;
   }
 
   .container {
