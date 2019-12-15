@@ -1,12 +1,12 @@
-import React from 'react';
-import './footer.css';
+import React from "react";
+import "./footer.css";
 
 const Footer = () => {
-	return (
-		<footer>
-			<span>Hasnawi | Cermati.com Front-end Developer Entry Test</span>
-		</footer>
-	);
+  return (
+    <footer>
+      <span>&copy; 2019 Hasnawi. All rights reserved.​</span>
+    </footer>
+  );
 };
 
 export default Footer;

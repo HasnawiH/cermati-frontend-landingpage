@@ -1,5 +1,5 @@
 .newsletters {
-  width: 45%;
+  max-width: 45%;
   height: 225px;
   background-color: #007bc1;
   position: relative;
